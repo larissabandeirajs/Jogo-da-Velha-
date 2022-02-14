@@ -7,7 +7,6 @@ html {
     margin: 10px;
     border: 30px 40px solid;
     padding: 20px 30px 3px 1px;
-
   }
   body {
      display: block;
@@ -18,17 +17,14 @@ html {
      user-select: none;
      background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
   }
-  
   .jogo-da-velha {
     display: inline-flex;
     flex-direction: column;
     margin: 0px;
   }
-  
   .linha {
     display: inline-flex;
   }
-  
   .quadrado {
     background: linear-gradient(to right top, #ffffff, #e5e6e7, #cacecf, #b2b7b5, #9d9f9a);
     width: 80px; 
@@ -39,16 +35,13 @@ html {
     align-items: center;
     cursor: pointer;
   }
-  
   .um {
     border-bottom: 1px solid;
     border-right: 1px solid;
   }
   .dois {
     border-bottom: 1px solid;
-    
   }
-  
   .marcador {
     font-size: 90px;
     font-weight: 900;
@@ -56,7 +49,6 @@ html {
   .selecionado {
     cursor: default;
   }
-  
   .placar{
     width: 250px; 
     height: 12px;
@@ -71,4 +63,3 @@ html {
     color: #ffffff;
       background: linear-gradient(to bottom, #71726f, #555452, #3a3938, #201f1f, #000000);
   }
-  
